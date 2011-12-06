@@ -6,6 +6,7 @@ class Indicator {
    valueMap = new HashMap();
    label = indicatorLabel; //I DID PUT WOW HERE BUT DID NOT WORK
   }
+  //NICE!
   
   void addDataPoint(int year, float value) {
     valueMap.put(year, value); 

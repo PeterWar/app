@@ -4,7 +4,7 @@ class Indicator {
   
   Indicator(String indicatorLabel) {
    valueMap = new HashMap();
-   label = indicatorLabel;//WOW
+   label = indicatorLabel; //I DID PUT WOW HERE BUT DID NOT WORK
   }
   
   void addDataPoint(int year, float value) {
